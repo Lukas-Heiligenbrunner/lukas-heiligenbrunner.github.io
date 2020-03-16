@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lukas Heiligenbrunner</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -22,27 +23,38 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top justify-content-end">
-    <ul class="navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link" href="#section1">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#section2">About Me</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#section3">Projects</a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                Contact
-            </a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#section41">Link 1</a>
-                <a class="dropdown-item" href="#section42">Link 2</a>
-            </div>
-        </li>
-    </ul>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#section1">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section2">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section3">Projects</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Contact
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#section41">Link 1</a>
+                    <a class="dropdown-item" href="#section42">Link 2</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
 </nav>
+
+
 <div id="section1" class="tile">
     <div class="container">
         <div>
@@ -57,33 +69,49 @@
     </div>
 </div>
 
-<div id="section2" class="container bg-warning tile">
-    <h1>Section 2</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-        the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-        the navigation bar while scrolling!</p>
+<div id="section2" class="bg-warning tile">
+    <div class="container">
+        <h1>Section 2</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+            look at
+            the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+            look at
+            the navigation bar while scrolling!</p>
+    </div>
 </div>
-<div id="section3" class="container bg-secondary tile">
-    <h1>Section 3</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-        the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-        the navigation bar while scrolling!</p>
+<div id="section3" class="bg-secondary tile">
+    <div class="container">
+        <h1>Section 3</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+            look at
+            the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+            look at
+            the navigation bar while scrolling!</p>
+    </div>
 </div>
-<div id="section41" class="container bg-danger tile">
-    <h1>Section 4 Submenu 1</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-        the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-        the navigation bar while scrolling!</p>
+<div id="section41" class="bg-danger tile">
+    <div class="container">
+        <h1>Section 4 Submenu 1</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+            look at
+            the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+            look at
+            the navigation bar while scrolling!</p>
+    </div>
 </div>
-<div id="section42" class="container bg-info tile">
-    <h1>Section 4 Submenu 2</h1>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-        the navigation bar while scrolling!</p>
-    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at
-        the navigation bar while scrolling!</p>
+<div id="section42" class="bg-info tile">
+    <div class="container">
+        <h1>Section 4 Submenu 2</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+            look at
+            the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+            look at
+            the navigation bar while scrolling!</p>
+    </div>
 </div>
 
 </body>
