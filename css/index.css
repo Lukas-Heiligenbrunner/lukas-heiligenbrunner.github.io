@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+
+    /*font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;*/
+}
+
+.tile {
+    height: 70%;
+    padding-top: 70px;
+    padding-bottom: 70px
+}
+
+#section1 {
+    padding-top: 200px;
+    background-color: #311E25;
+    color: white;
+}
+
+#nameText {
+    transition-delay: 200ms;
+    font-family: 'Helvetica Neue', fantasy;
+    font-size: 40pt;
+    -webkit-font-smoothing: antialiased
+    /*    todo here!*/
+}
