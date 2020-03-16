@@ -16,10 +16,50 @@ body, html {
     color: white;
 }
 
-#nameText {
+.lightOpacity{
+    opacity: 0.6;
+}
+
+.bigText{
     transition-delay: 200ms;
     font-family: 'Helvetica Neue', fantasy;
-    font-size: 40pt;
     -webkit-font-smoothing: antialiased
     /*    todo here!*/
+}
+
+#preTitle{
+    opacity: 0.8;
+}
+
+/* screen larger than 600px -- desktop */
+@media screen and (min-width: 601px) {
+    #preTitle{
+        font-size: 35px;
+    }
+    #titleText {
+        font-size: 80px;
+    }
+    #subTitleText{
+        font-size: 50px;
+    }
+    #meaningFullSentence{
+        width: 40%;
+    }
+}
+
+/* Screen smaller than 600px -- mobile */
+@media screen and (max-width: 600px) {
+    #preTitle{
+        font-size: 15px;
+    }
+    #titleText {
+        font-size: 30px;
+    }
+    #subTitleText{
+        font-size: 20px;
+    }
+    #meaningFullSentence{
+        width: 100%;
+        font-size: 13px;
+    }
 }
