@@ -11,7 +11,6 @@ body, html {
 }
 
 #section1 {
-    padding-top: 200px;
     background-color: #311E25;
     color: white;
 }
@@ -33,6 +32,10 @@ body, html {
 
 /* screen larger than 600px -- desktop */
 @media screen and (min-width: 601px) {
+    #section1{
+        padding-top: 200px;
+    }
+
     #preTitle{
         font-size: 35px;
     }
@@ -49,6 +52,10 @@ body, html {
 
 /* Screen smaller than 600px -- mobile */
 @media screen and (max-width: 600px) {
+    #section1{
+        padding-top: 100px;
+    }
+
     #preTitle{
         font-size: 15px;
     }
