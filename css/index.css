@@ -10,7 +10,7 @@ body, html {
     padding-bottom: 70px;
 }
 
-.nav-item{
+.nav-item {
     text-transform: uppercase;
     text-decoration: none;
     font: bold 15px/1.4 'Open Sans', arial, sans-serif;
@@ -34,14 +34,24 @@ body, html {
     color: #fffd80;
 }
 
-#homepicture{
+#homepicture {
     float: left;
     height: 400px;
 }
 
 /* About Me*/
-#aboutmeText{
+#aboutmeText {
+    width: 100%;
+}
+
+.aboutcontainer {
     width: 40%;
+    float: left;
+}
+
+.aboutPic {
+    width: 60%;
+    float: left;
 }
 
 /* screen larger than 600px -- desktop */
@@ -104,13 +114,13 @@ body, html {
         font-size: 13px;
     }
 
-    #homepicture{
+    #homepicture {
         height: 300px;
         width: 100%;
     }
 
     /* About Me*/
-    #aboutmeText{
+    #aboutmeText {
         width: 100%;
     }
 }
