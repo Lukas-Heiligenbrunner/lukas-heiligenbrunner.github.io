@@ -34,6 +34,11 @@ body, html {
     color: #fffd80;
 }
 
+#homepicture{
+    float: left;
+    height: 400px;
+}
+
 /* About Me*/
 #aboutmeText{
     width: 40%;
@@ -97,6 +102,11 @@ body, html {
     #meaningFullSentence {
         width: 100%;
         font-size: 13px;
+    }
+
+    #homepicture{
+        height: 300px;
+        width: 100%;
     }
 
     /* About Me*/
