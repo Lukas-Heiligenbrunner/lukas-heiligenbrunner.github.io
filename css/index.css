@@ -51,6 +51,7 @@ body, html {
 
 .aboutPic {
     width: 60%;
+    height: 300px;
     float: left;
 }
 
@@ -122,5 +123,18 @@ body, html {
     /* About Me*/
     #aboutmeText {
         width: 100%;
+    }
+
+    .aboutcontainer {
+        width: 100%;
+    }
+
+    .aboutPic {
+        width: 100%;
+        height: 150px;
+    }
+
+    #section2{
+        height: 130%;
     }
 }
