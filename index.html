@@ -23,182 +23,193 @@
 </head>
 <!-- The scrollable area -->
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+<div id="maincontent">
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">Lukas</a>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-<nav class="navbar navbar-expand-sm navbar-dark fixed-top">
-    <a class="navbar-brand" href="#">Lukas</a>
-    <!-- Toggler/collapsibe Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#section1">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#section2">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#section3">Experience</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#section4">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#section5">Contact</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-
-<!-- Home Page-->
-<div id="section1" class="tile">
-    <div class="container">
-        <div style="float: left;">
-            <div id="preTitle">Hey, my name is</div>
-            <div class="bigText" id="titleText">Lukas Heiligenbrunner</div>
-            <div class="bigText lightOpacity" id="subTitleText">A creative IT Student</div>
-            <p id="meaningFullSentence" class="lightOpacity">
-                I'm a software engineer based in Austria who loves code
-                development and is always open for new projects and ideas.
-            </p>
-        </div>
-        <div id="homepicture">
-            <img src="rsc/self3.png" height="100%" style="display: block;margin-left: auto; margin-right: auto">
-        </div>
-    </div>
-</div>
-
-<!-- About Page -->
-<div id="section2" class="bg-warning tile">
-    <div class="container">
-        <div class="aboutcontainer">
-            <h1>About me</h1>
-            <p id="aboutmeText">
-                Hello! I'm Lukas, a software engineer based in Austria who enjoys building GUI-Software as well as
-                things
-                that live on the internet.
-                I develop hardware near software exceptional websites and apps that provide intuitive and user friendly
-                interfaces with efficient and modern backends.
-                I'm currently a student of the HTL Steyr and I am in the final year now.
-                <br><br>
-
-                Here are a few technologies I've been working with recently:
-            </p>
-
-            <ul>
-                <li>C++</li>
-                <li>Java</li>
-                <li>Kotlin</li>
-                <li>HTML/CSS/JS</li>
-                <li>Latex</li>
-                <li>OpenSCAD</li>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section1">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section3">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section4">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section5">Contact</a>
+                </li>
             </ul>
         </div>
-        <div class="aboutPicContainer">
-            <img src="rsc/self4.jpg" id="aboutPic">
+    </nav>
+
+
+    <!-- Home Page-->
+    <div id="section1" class="tile">
+        <div class="container">
+            <div style="float: left;">
+                <div id="preTitle">Hey, my name is</div>
+                <div class="bigText" id="titleText">Lukas Heiligenbrunner</div>
+                <div class="bigText lightOpacity" id="subTitleText">A creative IT Student</div>
+                <p id="meaningFullSentence" class="lightOpacity">
+                    I'm a software engineer based in Austria who loves code
+                    development and is always open for new projects and ideas.
+                </p>
+            </div>
+            <div id="homepicture">
+                <img src="rsc/self3.png" height="100%" style="display: block;margin-left: auto; margin-right: auto">
+            </div>
         </div>
     </div>
-</div>
 
-<!-- Experience Page -->
-<div id="section3" class="tile">
-    <div class="container">
-        <h1>Experience</h1>
-        <div id="experiencecontentcontainer">
+    <!-- About Page -->
+    <div id="section2" class="bg-warning tile">
+        <div class="container">
+            <div class="aboutcontainer">
+                <h1>About me</h1>
+                <p id="aboutmeText">
+                    Hello! I'm Lukas, a software engineer based in Austria who enjoys building GUI-Software as well as
+                    things
+                    that live on the internet.
+                    I develop hardware near software exceptional websites and apps that provide intuitive and user
+                    friendly
+                    interfaces with efficient and modern backends.
+                    I'm currently a student of the HTL Steyr and I am in the final year now.
+                    <br><br>
 
-            <input class="ratiobtn" id="tab1" type="radio" name="tabs" checked="">
-            <label class="tab" for="tab1">Profactor</label>
+                    Here are a few technologies I've been working with recently:
+                </p>
 
-            <input class="ratiobtn" id="tab2" type="radio" name="tabs">
-            <label class="tab" for="tab2">SPS Technik</label>
+                <ul>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>Kotlin</li>
+                    <li>HTML/CSS/JS</li>
+                    <li>Latex</li>
+                    <li>OpenSCAD</li>
+                </ul>
+            </div>
+            <div class="aboutPicContainer">
+                <img src="rsc/self4.jpg" id="aboutPic">
+            </div>
+        </div>
+    </div>
 
-            <input class="ratiobtn" id="tab3" type="radio" name="tabs">
-            <label class="tab" for="tab3">Profactor</label>
+    <!-- Experience Page -->
+    <div id="section3" class="tile">
+        <div class="container">
+            <h1>Experience</h1>
+            <div id="experiencecontentcontainer">
 
-            <input class="ratiobtn" id="tab4" type="radio" name="tabs">
-            <label class="tab" for="tab4">Klausriegler</label>
+                <input class="ratiobtn" id="tab1" type="radio" name="tabs" checked="">
+                <label class="tab" for="tab1">Profactor</label>
+
+                <input class="ratiobtn" id="tab2" type="radio" name="tabs">
+                <label class="tab" for="tab2">SPS Technik</label>
+
+                <input class="ratiobtn" id="tab3" type="radio" name="tabs">
+                <label class="tab" for="tab3">Profactor</label>
+
+                <input class="ratiobtn" id="tab4" type="radio" name="tabs">
+                <label class="tab" for="tab4">Klausriegler</label>
 
 
-            <div class="content">
-                <div id="content1">
-                    <div>
-                        Engineer @Profactor
+                <div class="content">
+                    <div id="content1">
+                        <div>
+                            Engineer @Profactor
+                        </div>
+                        <div>
+                            research lab
+                        </div>
+                        <div>
+                            07.2019 – 08.2019
+                        </div>
+                        <p>
+                            Development of picture corrections for a surface inspection robot with the help of
+                            OpenCV.<br>
+                            außeruniversitäres Forschungsinstitut
+                            ▪ Programmieren von Bildkorrekturen für
+                            Oberflächeninspektionen mithilfe von OpenCV in C++
+                            Diplomarbeit – „Bildkorrektur für Oberflächeninspektion“
+                            ● Entwicklung einer C++ Bibliothek zur Entzerrung
+                            eines von einem Roboterarm aufgenommenen
+                            Oberflächenbildes
+                            ● Bearbeitung mit Hilfe von OpenCV und überwiegend
+                            der Affinen-Transformation
+                        </p>
                     </div>
-                    <div>
-                        research lab
+
+                    <div id="content2">
+                        <p>
+                            todo
+                            Automatisierungsprojekte
+                            ▪ Aufbau einer Dichtprüfanlage für BMW Werk Steyr in
+                            Ellwangen/Deutschland
+                        </p>
                     </div>
-                    <div>
-                        07.2019 – 08.2019
+
+                    <div id="content3">
+                        <p>
+                            todo außeruniversitäres Forschungsinstitut
+                            ▪ Aufbauen und Programmieren eines
+                            Oberflächeninspektions-Roboters
+                        </p>
                     </div>
-                    <p>
-                        Development of picture corrections for a surface inspection robot with the help of OpenCV.<br>
-                        außeruniversitäres Forschungsinstitut
-                        ▪ Programmieren von Bildkorrekturen für
-                        Oberflächeninspektionen mithilfe von OpenCV in C++
-                        Diplomarbeit – „Bildkorrektur für Oberflächeninspektion“
-                        ● Entwicklung einer C++ Bibliothek zur Entzerrung
-                        eines von einem Roboterarm aufgenommenen
-                        Oberflächenbildes
-                        ● Bearbeitung mit Hilfe von OpenCV und überwiegend
-                        der Affinen-Transformation
-                    </p>
-                </div>
 
-                <div id="content2">
-                    <p>
-                        todo
-                        Automatisierungsprojekte
-                        ▪ Aufbau einer Dichtprüfanlage für BMW Werk Steyr in
-                        Ellwangen/Deutschland
-                    </p>
-                </div>
-
-                <div id="content3">
-                    <p>
-                        todo außeruniversitäres Forschungsinstitut
-                        ▪ Aufbauen und Programmieren eines
-                        Oberflächeninspektions-Roboters
-                    </p>
-                </div>
-
-                <div id="content4">
-                    <p>
-                        todo Heizung-Lüftung-Klima-Sanitär
-                        ▪ Mithilfe bei Ölbrenner- und Gasthermenservice
-                        ▪ Mithilfe bei Badsanierung und -installation
-                    </p>
+                    <div id="content4">
+                        <p>
+                            todo Heizung-Lüftung-Klima-Sanitär
+                            ▪ Mithilfe bei Ölbrenner- und Gasthermenservice
+                            ▪ Mithilfe bei Badsanierung und -installation
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- Projects Page -->
-<div id="section4" class="tile">
-    <div class="container">
-        <h1>Projects</h1>
-        <p>Todo Projects Page! Todo Projects Page! Todo Projects Page! Todo Projects Page! Todo Projects Page!
-            Todo Projects Page! Todo Projects Page! Todo Projects Page! Todo Projects Page! Todo Projects Page!
-            Todo Projects Page! Todo Projects Page! Todo Projects Page! Todo Projects Page! Todo Projects Page! Todo
-            Projects Page! </p>
+    <!-- Projects Page -->
+    <div id="section4" class="tile">
+        <div class="container">
+            <h1>Projects</h1>
+            <p>Todo Projects Page! Todo Projects Page! Todo Projects Page! Todo Projects Page! Todo Projects Page!
+                Todo Projects Page! Todo Projects Page! Todo Projects Page! Todo Projects Page! Todo Projects Page!
+                Todo Projects Page! Todo Projects Page! Todo Projects Page! Todo Projects Page! Todo Projects Page! Todo
+                Projects Page! </p>
+        </div>
+    </div>
+
+    <!-- Contact Page -->
+    <div id="section5" class="bg-danger tile">
+        <div class="container">
+            <h1>Contact</h1>
+            <h3>Stay in Contact!</h3>
+            <p>Todo Contacts page! Todo Contacts page! Todo Contacts page! Todo Contacts page! Todo Contacts page! Todo
+                Contacts page! Todo Contacts page!
+                Todo Contacts page! Todo Contacts page! Todo Contacts page! Todo Contacts page! Todo Contacts page!
+                Todo Contacts page! Todo Contacts page! Todo Contacts page! Todo Contacts page! </p>
+        </div>
     </div>
 </div>
 
-<!-- Contact Page -->
-<div id="section5" class="bg-danger tile">
-    <div class="container">
-        <h1>Contact</h1>
-        <h3>Stay in Contact!</h3>
-        <p>Todo Contacts page! Todo Contacts page! Todo Contacts page! Todo Contacts page! Todo Contacts page! Todo
-            Contacts page! Todo Contacts page!
-            Todo Contacts page! Todo Contacts page! Todo Contacts page! Todo Contacts page! Todo Contacts page!
-            Todo Contacts page! Todo Contacts page! Todo Contacts page! Todo Contacts page! </p>
+<a href="#section1">
+    <div id="backtotopbutton">
+        <div style="margin-top: 25%">
+            Back to Top!
+        </div>
     </div>
-</div>
+</a>
 
 </body>
 </html>
