@@ -1,0 +1,51 @@
+/* About Me*/
+#aboutmeText {
+    width: 100%;
+}
+
+.aboutcontainer {
+    width: 40%;
+    float: left;
+}
+
+.aboutPicContainer {
+    width: 60%;
+    height: 300px;
+    float: left;
+}
+
+#aboutPic {
+    float: right;
+    margin-top: 10%;
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    height: 100%;
+}
+
+
+/* special design for Screen smaller than 600px -- mobile */
+@media screen and (max-width: 1200px) {
+    /* About Me*/
+    #aboutmeText {
+        width: 100%;
+    }
+
+    .aboutcontainer {
+        width: 100%;
+    }
+
+    .aboutPicContainer {
+        width: 100%;
+        height: 150px;
+    }
+
+    #section2 {
+        height: 130%;
+    }
+
+    #aboutPic {
+        float: initial;
+        margin-left: auto;
+        margin-right: auto;
+        /*    todo nof loating right in middle */
+    }
+}

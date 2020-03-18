@@ -1,0 +1,75 @@
+#section1 {
+    background-color: #311E25;
+    color: white;
+}
+
+.lightOpacity {
+    opacity: 0.6;
+}
+
+.bigText {
+    font-family: 'Helvetica Neue', fantasy;
+}
+
+#preTitle {
+    opacity: 0.8;
+    color: #fffd80;
+}
+
+#homepicture {
+    float: left;
+    height: 400px;
+}
+
+/* screen larger than 600px -- desktop */
+@media screen and (min-width: 1201px) {
+    #section1 {
+        padding-top: 200px;
+    }
+
+    #preTitle {
+        font-size: 35px;
+    }
+
+    #titleText {
+        font-size: 80px;
+    }
+
+    #subTitleText {
+        font-size: 50px;
+    }
+
+    #meaningFullSentence {
+        width: 40%;
+    }
+}
+
+/* Screen smaller than 600px -- mobile */
+@media screen and (max-width: 1200px) {
+    #section1 {
+        padding-top: 100px;
+        height: 90%;
+    }
+
+    #preTitle {
+        font-size: 15px;
+    }
+
+    #titleText {
+        font-size: 30px;
+    }
+
+    #subTitleText {
+        font-size: 20px;
+    }
+
+    #meaningFullSentence {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    #homepicture {
+        height: 300px;
+        width: 100%;
+    }
+}

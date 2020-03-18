@@ -1,0 +1,37 @@
+body, html {
+    height: 100%;
+    scroll-behavior: smooth;
+    /*font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;*/
+}
+
+/* general definition of a tile */
+.tile {
+    height: 80%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    min-height: 530px;
+}
+
+/* nav item formattings */
+.nav-item {
+    text-transform: uppercase;
+    text-decoration: none;
+    font: bold 15px/1.4 'Open Sans', arial, sans-serif;
+}
+
+/* screen larger than 600px -- desktop */
+@media screen and (min-width: 1201px) {
+
+}
+
+/* Screen smaller than 600px -- mobile */
+@media screen and (max-width: 1200px) {
+    /*background color of collapsed navbar*/
+    .navbar-nav {
+        background: #311E25;
+    }
+
+    .tile {
+        min-height: 300px;
+    }
+}
