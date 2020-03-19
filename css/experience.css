@@ -1,8 +1,11 @@
-#section3{
+#section3 {
     background-color: #53bf65;
 }
 
-.content > div {display: none; padding: 20px 25px 5px;}
+.content > div {
+    display: none;
+    padding: 20px 25px 5px;
+}
 
 #tab1:checked ~ .content #content1,
 #tab2:checked ~ .content #content2,
@@ -11,34 +14,65 @@
     display: block;
 }
 
-.tab{
+.tab {
     display: block;
     float: left;
     clear: left;
-    /*float: left;*/
-    margin-top: 10px;
-    width: 10%;
-    background-color: white;
-    left:0;
+    margin: 0px;
+    width: 14%;
+    left: 0;
     overflow: hidden;
-    /*border: 10px;*/
+
+    margin-right: 6mm;
+
+    border: 6mm solid hsla(0, 100%, 50%, 0);
+    padding-left: 2mm;
+    border-left-color: #357840;
+    transition: border-left-color 500ms;
+
+    border-bottom-right-radius: 5mm;
+    border-top-right-radius: 5mm;
 }
 
-.content{
+.tab:hover {
+    color: aqua;
+    background-color: #357840;
+    transition: background-color 500ms;
+}
+
+.ratiobtn:checked + .tab {
+    border-left-color: aqua;
+    transition: border-left-color 500ms;
+}
+
+.content {
     position: relative;
     float: left;
     width: 80%;
-    top: -140px;
+    top: -200px;
+    height: 260px;
+    background-color: #357840;
+    color: white;
+    border-radius: 5mm;;
 }
 
-#tab4{
-    float: left;
-}
-
-.ratiobtn{
+.ratiobtn {
     display: none;
 }
 
-#experiencecontentcontainer{
-    margin-top: 25px;
+#experiencecontentcontainer {
+    margin-top: 100px;
+}
+
+.experiencetitle{
+    font-size: x-large;
+}
+
+.companyname{
+    color: aqua;
+}
+
+.experienceworktext{
+    margin-top: 5mm;
+    font-size: large;
 }
