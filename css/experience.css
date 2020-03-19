@@ -38,6 +38,7 @@
     color: aqua;
     background-color: #357840;
     transition: background-color 500ms;
+    cursor: pointer;
 }
 
 .ratiobtn:checked + .tab {
