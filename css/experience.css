@@ -90,17 +90,20 @@
     #section3 {
         height: 100%;
     }
+
     .tab {
         display: inline-block;
-        width: 20%;
+        width: auto;
         /*float: left;*/
-
-        margin-right: 0;
-
-        border: 0mm solid hsla(0, 100%, 50%, 0);
-        padding-left: 0;
+        margin: 2px;
+        border: 0.5mm solid hsla(0, 100%, 50%, 0);
+        padding: 2px 2px 2px 0;
         clear: none;
         margin-bottom: 70px;
+    }
+
+    #tab1 + .tab {
+        margin-left: 15px;
     }
 
     .content {
@@ -113,6 +116,7 @@
 
     .ratiobtn:checked + .tab {
         color: aqua;
+        background-color: #146d23;
         transition: border-left-color 500ms;
     }
 
