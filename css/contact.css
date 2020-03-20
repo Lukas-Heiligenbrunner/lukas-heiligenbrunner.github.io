@@ -46,3 +46,10 @@
 #section5 {
     height: 50%;
 }
+
+/* Screen smaller than 600px -- general small width screens */
+@media screen and (max-width: 1200px) {
+    #section5 {
+        height: 100%;
+    }
+}

@@ -92,18 +92,23 @@
     }
 
     .tab {
-        display: inline-block;
+        display: inline;
         width: auto;
         /*float: left;*/
         margin: 2px;
         border: 0.5mm solid hsla(0, 100%, 50%, 0);
         padding: 2px 2px 2px 0;
         clear: none;
-        margin-bottom: 70px;
+        margin-bottom: 20px;
     }
 
     #tab1 + .tab {
         margin-left: 15px;
+    }
+
+    #tab4 + .tab {
+        float: none;
+        display: block;
     }
 
     .content {
@@ -111,7 +116,7 @@
         display: block;
         float: none;
         width: auto;
-        height: 450px;
+        height: 350px;
     }
 
     .ratiobtn:checked + .tab {
