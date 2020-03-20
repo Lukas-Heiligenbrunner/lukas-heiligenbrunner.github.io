@@ -6,7 +6,8 @@
  */
 
 #section3 {
-    background-color: #53bf65;
+    background-color: #001631;
+    color: white;
 }
 
 .content > div {
@@ -34,7 +35,7 @@
 
     border: 6mm solid hsla(0, 100%, 50%, 0);
     padding-left: 2mm;
-    border-left-color: #357840;
+    border-left-color: #194378;
     transition: border-left-color 500ms;
 
     border-bottom-right-radius: 5mm;
@@ -42,8 +43,8 @@
 }
 
 .tab:hover {
-    color: aqua;
-    background-color: #357840;
+    color: #74f9d4;
+    background-color: #194378;
     transition: background-color 500ms;
     cursor: pointer;
 }
@@ -59,7 +60,7 @@
     width: 80%;
     top: -200px;
     height: 260px;
-    background-color: #357840;
+    background-color: #194378;
     color: white;
     border-radius: 5mm;
 }
@@ -77,7 +78,7 @@
 }
 
 .companyname {
-    color: aqua;
+    color: #74f9d4;
 }
 
 .experienceworktext {

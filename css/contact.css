@@ -6,7 +6,7 @@
  */
 
 #section5 {
-    background-color: #dc3545;
+    background-color: #7a96c2;
 }
 
 .personalcontacts {
@@ -36,11 +36,13 @@
     padding: 10px;
     border-radius: 5mm;
     font-size: larger;
-    color: white;
+    color: black;
 }
 
 .contactsign:hover {
-    background-color: #972f38;
+    color: white;
+    background-color: #194378;
+    transition: background-color 500ms;
 }
 
 #section5 {

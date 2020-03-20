@@ -6,7 +6,7 @@
  */
 
 #section2 {
-    background-color: #ffc107;
+    background-color: #deebff;
 }
 
 #aboutmeText {
@@ -41,12 +41,12 @@
 
     width: 300px;
     padding: 10px;
-    background-color: #ba9320;
+    background-color: #7a96c2;
     color: black;
     border-radius: 5mm;
     font-size: larger;
     border-width: 1mm;
-    border-color: #7f6721;
+    border-color: #194378;
     border-style: solid;
 
     transition: background-color 500ms;
@@ -55,7 +55,7 @@
 #downloadcvbtn:hover {
     /*background-color: #facf4d;*/
     color: white;
-    background-color: #7f6721;
+    background-color: #194378;
     transition: all 500ms;
 }
 
