@@ -1,3 +1,10 @@
+/*!
+ * experience.css - https://heili.eu
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ * E-mail: lukas.heiligenbrunner@gmail.com
+ * Copyright (c) 2020 Lukas Heiligenbrunner
+ */
+
 #section3 {
     background-color: #53bf65;
 }
@@ -54,15 +61,8 @@
     height: 260px;
     background-color: #357840;
     color: white;
-    border-radius: 5mm;;
+    border-radius: 5mm;
 }
-
-/*!
- * experience.css - https://heili.eu
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- * E-mail: lukas.heiligenbrunner@gmail.com
- * Copyright (c) 2020 Lukas Heiligenbrunner
- */
 
 .ratiobtn {
     display: none;
@@ -84,3 +84,37 @@
     margin-top: 5mm;
     font-size: large;
 }
+
+/* Screen smaller than 600px -- general small width screens */
+@media screen and (max-width: 1200px) {
+    #section3 {
+        height: 100%;
+    }
+    .tab {
+        display: inline-block;
+        width: 20%;
+        /*float: left;*/
+
+        margin-right: 0;
+
+        border: 0mm solid hsla(0, 100%, 50%, 0);
+        padding-left: 0;
+        clear: none;
+        margin-bottom: 70px;
+    }
+
+    .content {
+        position: static;
+        display: block;
+        float: none;
+        width: auto;
+        height: 450px;
+    }
+
+    .ratiobtn:checked + .tab {
+        color: aqua;
+        transition: border-left-color 500ms;
+    }
+
+}
+

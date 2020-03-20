@@ -8,6 +8,7 @@
 #section1 {
     background-color: #311E25;
     color: white;
+    padding-top: 200px;
 }
 
 .lightOpacity {
@@ -19,6 +20,7 @@
 }
 
 #preTitle {
+    font-size: 35px;
     opacity: 0.8;
     color: #fffd80;
 }
@@ -28,36 +30,32 @@
     height: 400px;
 }
 
-/* screen larger than 600px -- desktop */
-@media screen and (min-width: 1201px) {
-    #section1 {
-        padding-top: 200px;
-    }
+#titleText {
+    font-size: 80px;
+}
 
-    #preTitle {
-        font-size: 35px;
-    }
+#subTitleText {
+    font-size: 50px;
+}
 
-    #titleText {
-        font-size: 80px;
-    }
+#meaningFullSentence {
+    width: 40%;
+}
 
-    #subTitleText {
-        font-size: 50px;
-    }
+/* todo maybe a bit weird??  */
+#homepicture:hover {
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px 0px;
+    transition: all 500ms;
+}
 
-    #meaningFullSentence {
-        width: 40%;
-    }
-
-    /* todo maybe a bit weird??  */
-    #homepicture:hover {
-        box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px 0px;
-        transition: all 500ms;
+/* height smaller than 720px */
+@media screen and (max-height: 720px) {
+    #homepicture {
+        height: 300px;
     }
 }
 
-/* Screen smaller than 600px -- mobile */
+/* Screen smaller than 600px -- general small width screens */
 @media screen and (max-width: 1200px) {
     #section1 {
         padding-top: 100px;
@@ -85,4 +83,8 @@
         height: 300px;
         width: 100%;
     }
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
 }
