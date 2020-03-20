@@ -61,10 +61,6 @@ body, html, #maincontent {
         background: #311E25;
     }
 
-    .tile {
-        min-height: 300px;
-    }
-
     #backtotopbutton {
         display: none; /* hide scroll to top button on mobile devices */
     }

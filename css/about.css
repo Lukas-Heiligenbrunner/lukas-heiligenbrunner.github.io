@@ -86,6 +86,7 @@
 
     #section2 {
         height: 130%;
+        min-height: 860px;
     }
 
     #aboutPic {
