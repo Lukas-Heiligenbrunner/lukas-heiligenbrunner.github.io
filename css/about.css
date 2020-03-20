@@ -5,9 +5,10 @@
  * Copyright (c) 2020 Lukas Heiligenbrunner
  */
 
-#section2{
+#section2 {
     background-color: #ffc107;
 }
+
 #aboutmeText {
     width: 100%;
 }
@@ -31,10 +32,11 @@
     height: 100%;
 }
 
-.aboutcontainer a{
+.aboutcontainer a {
     text-decoration: none;
 }
-#downloadcvbtn{
+
+#downloadcvbtn {
     margin-top: 15%;
 
     width: 300px;
@@ -50,7 +52,7 @@
     transition: background-color 500ms;
 }
 
-#downloadcvbtn:hover{
+#downloadcvbtn:hover {
     /*background-color: #facf4d;*/
     color: white;
     background-color: #7f6721;

@@ -19,7 +19,7 @@ body, html, #maincontent {
     min-height: 530px;
 }
 
-#backtotopbutton{
+#backtotopbutton {
     position: fixed;
     bottom: 0;
     right: 0;
@@ -37,7 +37,7 @@ body, html, #maincontent {
     text-align: center;
 }
 
-#backtotopbutton:hover{
+#backtotopbutton:hover {
     opacity: 1;
     transition: opacity 500ms;
 }
@@ -65,7 +65,7 @@ body, html, #maincontent {
         min-height: 300px;
     }
 
-    #backtotopbutton{
+    #backtotopbutton {
         display: none; /* hide scroll to top button on mobile devices */
     }
 }

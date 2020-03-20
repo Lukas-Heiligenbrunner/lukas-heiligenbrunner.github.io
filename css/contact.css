@@ -5,43 +5,44 @@
  * Copyright (c) 2020 Lukas Heiligenbrunner
  */
 
-#section5{
+#section5 {
     background-color: #dc3545;
 }
 
-.personalcontacts{
+.personalcontacts {
     margin-top: 60px;
 }
 
-.personalcontacts a{
+.personalcontacts a {
     text-decoration: none;
 }
 
-#githubsign{
+#githubsign {
     margin-top: 30px;
 }
 
-#emailsign{
+#emailsign {
 
 }
 
-#gitlabsign{
+#gitlabsign {
     margin-top: 30px;
     position: relative;
     left: -6px;
 }
 
-.contactsign{
+.contactsign {
     width: 400px;
     padding: 10px;
     border-radius: 5mm;
     font-size: larger;
     color: white;
 }
-.contactsign:hover{
+
+.contactsign:hover {
     background-color: #972f38;
 }
 
-#section5{
+#section5 {
     height: 50%;
 }
