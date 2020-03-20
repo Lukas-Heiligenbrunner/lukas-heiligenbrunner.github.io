@@ -12,6 +12,12 @@ body, html, #maincontent {
     /*font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;*/
 }
 
+h1{
+    text-transform: uppercase;
+    font-family:  'Open Sans', arial, sans-serif;
+    font-weight: bold;
+}
+
 /* general definition of a tile */
 .tile {
     height: 80%;

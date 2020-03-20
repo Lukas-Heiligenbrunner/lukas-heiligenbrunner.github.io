@@ -123,7 +123,7 @@
 
     .ratiobtn:checked + .tab {
         color: aqua;
-        background-color: #146d23;
+        background-color: #234177;
         transition: border-left-color 500ms;
     }
 

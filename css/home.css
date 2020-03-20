@@ -22,7 +22,7 @@
 #preTitle {
     font-size: 35px;
     opacity: 0.8;
-    color: #fffd80;
+    color: #78ffd9;
 }
 
 #homepicture {
@@ -39,14 +39,17 @@
 
 #titleText {
     font-size: 80px;
+    color: #ced5f6;
 }
 
 #subTitleText {
     font-size: 50px;
+    color: #bec1d4;
 }
 
 #meaningFullSentence {
     width: 40%;
+    color: #babccd;
 }
 
 /* todo maybe a bit weird??  */
