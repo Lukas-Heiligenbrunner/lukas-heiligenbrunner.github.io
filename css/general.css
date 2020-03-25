@@ -35,7 +35,7 @@ h1{
 
     margin-bottom: 40px;
     margin-right: 60px;
-    background-color: #311E25;
+    background-color: #194378;
     opacity: 0.5;
     transition: opacity 500ms;
     color: white;
@@ -65,7 +65,7 @@ h1{
 @media screen and (max-width: 1200px) {
     /*background color of collapsed navbar*/
     .navbar-nav {
-        background: #311E25;
+        background: #001631;
     }
 
     #backtotopbutton {
