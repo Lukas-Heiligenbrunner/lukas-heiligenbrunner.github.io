@@ -5,6 +5,20 @@
  * Copyright (c) 2020 Lukas Heiligenbrunner
  */
 
+/* The animation code */
+@keyframes textfade {
+    from {
+        visibility: hidden;
+        position: relative;
+        top: -20px;
+    }
+    to {
+        visibility: visible;
+        position: relative;
+        top: 0;
+    }
+}
+
 #section1 {
     background-color: #001631;
     color: white;
@@ -23,6 +37,9 @@
     font-size: 35px;
     opacity: 0.8;
     color: #78ffd9;
+
+    visibility: hidden;
+    animation: textfade 1s 600ms 1 forwards ;
 }
 
 #homepicture {
@@ -40,11 +57,16 @@
 #titleText {
     font-size: 80px;
     color: #ced5f6;
+
+    visibility: hidden;
+    animation: textfade 1s 300ms 1 forwards ;
 }
 
 #subTitleText {
     font-size: 50px;
     color: #bec1d4;
+
+    animation: textfade 1s 0ms 1 forwards ;
 }
 
 #meaningFullSentence {
