@@ -5,25 +5,6 @@
  * Copyright (c) 2020 Lukas Heiligenbrunner
  */
 
-/* The animation code */
-@keyframes textfade {
-    from {
-        visibility: hidden;
-        position: relative;
-        top: -20px;
-    }
-    to {
-        visibility: visible;
-        position: relative;
-        top: 0;
-    }
-}
-
-#section1 {
-    background-color: #001631;
-    color: white;
-    padding-top: 200px;
-}
 
 .lightOpacity {
     opacity: 0.6;
@@ -33,13 +14,19 @@
     font-family: 'Helvetica Neue', fantasy;
 }
 
+#section1 {
+    background-color: #001631;
+    color: white;
+    padding-top: 200px;
+}
+
 #preTitle {
     font-size: 35px;
     opacity: 0.8;
     color: #78ffd9;
 
     visibility: hidden;
-    animation: textfade 1s 600ms 1 forwards ;
+    animation: textfade 1s 900ms 1 forwards ;
 }
 
 #homepicture {
@@ -59,25 +46,41 @@
     color: #ced5f6;
 
     visibility: hidden;
-    animation: textfade 1s 300ms 1 forwards ;
+    animation: textfade 1s 600ms 1 forwards ;
 }
 
 #subTitleText {
     font-size: 50px;
     color: #bec1d4;
 
-    animation: textfade 1s 0ms 1 forwards ;
+    visibility: hidden;
+    animation: textfade 1s 300ms 1 forwards ;
 }
 
 #meaningFullSentence {
     width: 40%;
     color: #babccd;
+
+    animation: textfade 1s 0ms 1 forwards ;
 }
 
-/* todo maybe a bit weird??  */
 #homepicture:hover {
     box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px 0px;
     transition: all 500ms;
+}
+
+/* The animation code */
+@keyframes textfade {
+    from {
+        visibility: hidden;
+        position: relative;
+        top: -20px;
+    }
+    to {
+        visibility: visible;
+        position: relative;
+        top: 0;
+    }
 }
 
 /* height smaller than 720px */
@@ -120,8 +123,4 @@
     #nameTag {
         display: none;
     }
-}
-
-@media only screen and (min-width: 600px) {
-    /* For tablets: */
 }
