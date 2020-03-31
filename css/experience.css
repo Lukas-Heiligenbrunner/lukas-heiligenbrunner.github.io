@@ -65,12 +65,17 @@
     border-radius: 5mm;
 }
 
+#experienceheader {
+    visibility: hidden;
+}
+
 .ratiobtn {
     display: none;
 }
 
 #experiencecontentcontainer {
     margin-top: 100px;
+    visibility: hidden;
 }
 
 .experiencetitle {

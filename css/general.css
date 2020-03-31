@@ -12,10 +12,22 @@ body, html, #maincontent {
     /*font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;*/
 }
 
-h1{
+h1 {
     text-transform: uppercase;
-    font-family:  'Open Sans', arial, sans-serif;
+    font-family: 'Open Sans', arial, sans-serif;
     font-weight: bold;
+}
+
+.animationappearnow {
+    animation: textappear 1s 0ms 1 forwards;
+}
+
+.animationappear300ms {
+    animation: textappear 1s 300ms 1 forwards;
+}
+
+.animationappear600ms {
+    animation: textappear 1s 600ms 1 forwards;
 }
 
 /* general definition of a tile */
@@ -54,6 +66,34 @@ h1{
     text-transform: uppercase;
     text-decoration: none;
     font: bold 15px/1.4 'Open Sans', arial, sans-serif;
+}
+
+/* The animation code */
+@keyframes textfade {
+    from {
+        visibility: hidden;
+        position: relative;
+        top: -20px;
+    }
+    to {
+        visibility: visible;
+        position: relative;
+        top: 0;
+    }
+}
+
+/* The animation code */
+@keyframes textappear {
+    from {
+        visibility: hidden;
+        opacity: 0;
+        top: -20px;
+    }
+    to {
+        visibility: visible;
+        opacity: 1;
+        top: 0;
+    }
 }
 
 /* screen larger than 600px -- desktop */

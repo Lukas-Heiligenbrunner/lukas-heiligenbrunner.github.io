@@ -9,8 +9,17 @@
     background-color: #deebff;
 }
 
+#contactheader{
+    visibility: hidden;
+}
+
+#contactsubheader{
+    visibility: hidden;
+}
+
 .personalcontacts {
     margin-top: 60px;
+    visibility: hidden;
 }
 
 .personalcontacts a {

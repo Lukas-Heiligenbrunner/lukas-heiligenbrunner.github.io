@@ -26,7 +26,7 @@
     color: #78ffd9;
 
     visibility: hidden;
-    animation: textfade 1s 900ms 1 forwards ;
+    animation: textfade 1s 900ms 1 forwards;
 }
 
 #homepicture {
@@ -46,7 +46,7 @@
     color: #ced5f6;
 
     visibility: hidden;
-    animation: textfade 1s 600ms 1 forwards ;
+    animation: textfade 1s 600ms 1 forwards;
 }
 
 #subTitleText {
@@ -54,33 +54,19 @@
     color: #bec1d4;
 
     visibility: hidden;
-    animation: textfade 1s 300ms 1 forwards ;
+    animation: textfade 1s 300ms 1 forwards;
 }
 
 #meaningFullSentence {
     width: 40%;
     color: #babccd;
 
-    animation: textfade 1s 0ms 1 forwards ;
+    animation: textfade 1s 0ms 1 forwards;
 }
 
 #homepicture:hover {
     box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px 0px;
     transition: all 500ms;
-}
-
-/* The animation code */
-@keyframes textfade {
-    from {
-        visibility: hidden;
-        position: relative;
-        top: -20px;
-    }
-    to {
-        visibility: visible;
-        position: relative;
-        top: 0;
-    }
 }
 
 /* height smaller than 720px */
