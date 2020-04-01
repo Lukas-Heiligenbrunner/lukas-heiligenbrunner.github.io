@@ -91,6 +91,24 @@
     font-size: large;
 }
 
+/* navbar animation */
+.experiencecontaineranimation :nth-child(2){
+    visibility: hidden;
+    animation: textfade 500ms 600ms 1 forwards;
+}
+.experiencecontaineranimation :nth-child(4){
+    visibility: hidden;
+    animation: textfade 500ms 700ms 1 forwards;
+}
+.experiencecontaineranimation :nth-child(6){
+    visibility: hidden;
+    animation: textfade 500ms 800ms 1 forwards;
+}
+.experiencecontaineranimation :nth-child(8){
+    visibility: hidden;
+    animation: textfade 500ms 900ms 1 forwards;
+}
+
 /* Screen smaller than 600px -- general small width screens */
 @media screen and (max-width: 1200px) {
     #section3 {

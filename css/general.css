@@ -68,6 +68,27 @@ h1 {
     font: bold 15px/1.4 'Open Sans', arial, sans-serif;
 }
 
+/* navbar animation */
+.nav :nth-child(1) a{
+    visibility: hidden;
+    animation: textfade 1s 600ms 1 forwards;
+}
+
+.nav :nth-child(2) a{
+    visibility: hidden;
+    animation: textfade 1s 700ms 1 forwards;
+}
+
+.nav :nth-child(3) a{
+    visibility: hidden;
+    animation: textfade 1s 800ms 1 forwards;
+}
+
+.nav :nth-child(4) a{
+    visibility: hidden;
+    animation: textfade 1s 900ms 1 forwards;
+}
+
 /* The animation code */
 @keyframes textfade {
     from {

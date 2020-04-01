@@ -19,6 +19,8 @@ $(function () {
         if (px) {
             $("#experienceheader").addClass("animationappear600ms");
             $("#experiencecontentcontainer").addClass("animationappear300ms");
+
+            $("#experiencecontentcontainer").addClass("experiencecontaineranimation");
         }
     });
 

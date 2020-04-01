@@ -64,6 +64,7 @@
     animation: textfade 1s 0ms 1 forwards;
 }
 
+/* hover effects */
 #homepicture:hover {
     box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px 0px;
     transition: all 500ms;
