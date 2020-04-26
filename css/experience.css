@@ -86,6 +86,10 @@
     color: #74f9d4;
 }
 
+.companyname:hover{
+    color: #74f9d0;
+}
+
 .experienceworktext {
     margin-top: 5mm;
     font-size: large;

@@ -1,5 +1,4 @@
-test:
+check_html:
   image: 18fgsa/html-proofer:gitlab-ci
   script:
-    - ls -la
     - htmlproofer ./ --empty-alt-ignore

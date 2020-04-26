@@ -18,9 +18,10 @@ $(function () {
     $("#section3").inViewport(function (px) {
         if (px) {
             $("#experienceheader").addClass("animationappear600ms");
-            $("#experiencecontentcontainer").addClass("animationappear300ms");
 
-            $("#experiencecontentcontainer").addClass("experiencecontaineranimation");
+            const expcontainer = $("#experiencecontentcontainer");
+            expcontainer.addClass("animationappear300ms");
+            expcontainer.addClass("experiencecontaineranimation");
         }
     });
 
