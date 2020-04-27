@@ -26,12 +26,11 @@
     display: block;
     float: left;
     clear: left;
-    margin: 0px;
     width: 14%;
     left: 0;
     overflow: hidden;
 
-    margin-right: 6mm;
+    margin: 0 6mm 0 0;
 
     border: 6mm solid hsla(0, 100%, 50%, 0);
     padding-left: 2mm;
@@ -124,11 +123,10 @@
         display: inline;
         width: auto;
         /*float: left;*/
-        margin: 2px;
         border: 0.5mm solid hsla(0, 100%, 50%, 0);
         padding: 2px 2px 2px 0;
         clear: none;
-        margin-bottom: 20px;
+        margin: 2px 2px 20px;
     }
 
     #tab1 + .tab {
