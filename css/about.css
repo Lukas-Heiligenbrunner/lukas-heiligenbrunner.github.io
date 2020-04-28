@@ -5,6 +5,7 @@
  * Copyright (c) 2020 Lukas Heiligenbrunner
  */
 
+/* ID selectors */
 #section2 {
     background-color: #deebff;
 }
@@ -13,27 +14,12 @@
     width: 100%;
 }
 
-.aboutcontainer {
-    width: 40%;
-    float: left;
-}
-
-.aboutPicContainer {
-    width: 60%;
-    height: 300px;
-    float: left;
-}
-
 #aboutPic {
     float: right;
     margin-top: 10%;
     box-shadow: rgba(2, 12, 27, 0.7) 0 10px 30px -15px;
     transition: box-shadow 500ms;
     height: 100%;
-}
-
-.aboutcontainer a {
-    text-decoration: none;
 }
 
 #downloadcvbtn {
@@ -52,8 +38,40 @@
     transition: background-color 500ms;
 }
 
+/* CLASS selectors */
+.aboutcontainer {
+    width: 40%;
+    float: left;
+}
+
+.aboutPicContainer {
+    width: 60%;
+    height: 300px;
+    float: left;
+}
+
+.aboutcontainer a {
+    text-decoration: none;
+}
+
+.arrowicon {
+    margin: 0;
+    padding: 7px 0 7px 20px;
+    list-style: none;
+    background-image: url("../rsc/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}
+
+/* HOVER selectors */
+.arrowicon:hover {
+    background-color: #7a96c2;
+    border-radius: 3mm;
+    margin-left: 3mm;
+}
+
 #downloadcvbtn:hover {
-    /*background-color: #facf4d;*/
     color: white;
     background-color: #194378;
     transition: all 500ms;
